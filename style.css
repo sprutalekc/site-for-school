@@ -1,0 +1,529 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: #6C859E;
+    height: 180px;
+    position: relative;
+    z-index: 4;
+}
+
+.header{
+    z-index: 1;
+    position: relative;
+}
+
+.menuHeader{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 20% 0 250px;
+    font-size: 22px;
+    font-family: 'Montserrat', sans-serif;
+    color: #FFFFFF;
+    top: 30px;
+}
+
+.navbar-wrap { 
+    padding-left: 550px;
+    display: flex;
+    flex-flow: row nowrap;
+    position: absolute;
+    top:11px;
+    font-size: 19px;
+    width: 700px;
+}
+
+.navbar-menu {
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+.contact{
+    left: 1135px;
+    display: flex;
+    position: absolute;
+    top:34px;
+    font-size: 19px;
+}
+
+a{
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'Chivo Mono', monospace;
+    font-family: 'Montserrat', sans-serif;
+}   
+
+a:hover{
+    color: #ffffffb5;
+}
+
+.rectangle{
+    position: absolute;
+    width: 977px;
+    height: 0px;
+    left: 250px;
+    top: 87.94px;
+    border: 1px solid #FFFFFF;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.Neur{
+    background-color: #6C859E;
+    position: relative;
+    height: 650px;
+}
+
+.contentHeader{
+    position: relative;
+    left: 380px;
+    top: 80px;
+    height: 250px;
+    width: 600px;
+}
+
+.contentLogo{
+    display: flex;
+    align-items: center;
+    top: 150px;
+    position: relative;
+}
+
+.rectangle-2{
+    position: absolute;
+    width: 72px;
+    height: 2px;
+    left: 0px;
+    background: #F5B761;
+}
+
+.rectangleText{
+    position: absolute;
+    width: 312px;
+    height: 22px;
+    left: 104px;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 22px;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    color: #F5B761;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.contentText{
+    width: 950px;
+    height: 200px;
+    font-family: 'Chronicle Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 100px;
+    color: #FFFFFF;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    padding-top:50px;
+    font-family: 'Chivo Mono', monospace;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    top: 130px;
+}
+
+.Neu{
+    left: 1300px;
+    position: relative;
+    top: 200px;
+    position: fixed;
+    padding: 7px;
+    background-color: #9A9FAB;
+    border-radius: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    z-index: 1;
+}
+
+.Neu:hover {
+    background-color: #8d9098b6;
+}
+
+.content{
+    background-color: #5F768C;
+    top: 410px;
+    height: 880px;
+    position: relative;
+    z-index: 3;
+    font-family: 'Chivo Mono', monospace;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.contentLogo2{
+    display: flex;
+    position: absolute;
+    left: 380px;
+    top: 220px;
+}
+
+.logoNumber{
+    position: relative;
+    color: #FFFFFF;
+    bottom: 110px;
+    opacity: 0.1;
+    font-weight: 700;
+    font-size: 240px;
+    line-height: 240px;
+    right: 150px;
+}
+
+.rectangleText2{
+    position: absolute;
+    width: 692px;
+    height: 21px;
+    left: 95px;
+    bottom: 225px;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 22px;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    color: #F5B761;
+}
+
+.descContent{
+    width: 632px;
+    height: 160px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    color: white;
+    top: 60px;
+    position: absolute;
+}
+
+.descContent2{
+    width: 632px;
+    height: 160px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    color: white;
+    top: 240px;
+    position: absolute;
+}
+
+.IContent{
+    width: 632px;
+    height: 160px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    color: white;
+    top: 450px;
+    position: absolute;
+}
+
+.content2{
+    position: relative;
+    top: 410px;
+    background-color: #5F768C;
+    height: 1500px;
+    position: relative;
+    font-family: 'Chivo Mono', monospace;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.contentLogo2-0{
+    display: flex;
+    position: absolute;
+    left: 380px;
+    top: 220px;
+}
+
+.contentText3{
+    width: 632px;
+    height: 160px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    color: white;
+    top: 60px;
+    position: absolute;
+}
+
+.descContent3{
+    width: 632px;
+    height: 160px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    color: white;
+    top: 520px;
+    position: absolute;
+}
+
+.IContent2{
+    width: 632px;
+    height: 160px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    color: white;
+    top: 790px;
+    position: absolute;
+}
+
+.content3{
+    background-color: #5F768C;
+    height: 1600px;
+    position: relative;
+    top: 410px;
+    font-family: 'Chivo Mono', monospace;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.contentLogo3-0{
+    display: flex;
+    position: absolute;
+    left: 380px;
+    top: 520px;
+}
+
+.descContent4{
+    width: 632px;
+    height: 160px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    color: white;
+    top: 330px;
+    position: absolute;
+}
+
+.IContent3{
+    width: 632px;
+    height: 160px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    color: white;
+    top: 570px;
+    position: absolute;
+}
+
+.dob{
+    width: 632px;
+    height: 160px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    color: white;
+    top: 280px;
+    position: absolute;
+}
+
+.img{
+    position: absolute;
+    top: 1320px;
+    z-index: 1;
+    height: 450px;
+    left: 260px;
+}
+
+.img2{
+    position: absolute;
+    top: 1570px;
+    z-index: 1;
+    height: 450px;
+    left: 27%;
+}
+.contentLogo4-0{
+    display: flex;
+    position: absolute;
+    left: 380px;
+    top: 100px;
+}
+
+.content4{
+    background-color: #5F768C;
+    height: 600px;
+    position: relative;
+    top: 310px;
+    font-family: 'Chivo Mono', monospace;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.content5{
+    background-color: #5F768C;
+    height: 1370px;
+    position: relative;
+    top: 310px;
+    font-family: 'Chivo Mono', monospace;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.contentLogo5-0{
+    display: flex;
+    position: absolute;
+    left: 380px;
+    top: 250px;
+}
+
+.descContent5{
+    width: 632px;
+    height: 160px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    color: white;
+    top: 360px;
+    position: absolute;
+}
+
+.content6{
+    background-color: #5F768C;
+    height: 2120px;
+    position: relative;
+    top: 310px;
+    font-family: 'Chivo Mono', monospace;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.contentLogo6-0{
+    display: flex;
+    position: absolute;
+    left: 380px;
+    top: 250px;
+}
+
+.descContent6{
+    width: 632px;
+    height: 160px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    color: white;
+    top: 500px;
+    position: absolute;
+}
+
+.IContent4{
+    width: 632px;
+    height: 160px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    color: white;
+    top: 970px;
+    position: absolute;
+}
+
+
+
+.navbar-menu li {
+    display: inline-block;
+    padding-right: 40px;
+    padding-top: 25px;
+}
+
+.content7{
+    background-color: #5F768C;
+    height: 1800px;
+    position: relative;
+    top: 310px;
+    font-family: 'Chivo Mono', monospace;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.contentLogo7-0{
+    display: flex;
+    position: absolute;
+    left: 380px;
+    top: 250px;
+}
+
+.descContent7{
+    width: 632px;
+    height: 160px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    color: white;
+    top: 880px;
+    position: absolute;
+}
+
+.descContent8{
+    width: 632px;
+    height: 160px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    color: white;
+    top: 1280px;
+    position: absolute;
+}
+
+footer{
+    top: 300px;
+    position: relative;
+}
+
+.Footer{
+    font-family: 'Chivo Mono', monospace;
+    font-family: 'Montserrat', sans-serif;
+    color: #FFFFFF;
+    background-color: #6C859E;
+    height: 400px;
+}
+
+.FooterText{
+    font-size: 22px;
+    left: 45%;
+    top: 120px;
+    position: relative;
+    width: 100px;
+}
+
+.Fon{
+    width: 170px;
+    float: left;
+    
+    top: 200px;
+    position: relative;
+    left: 400px;
+}
+
+.Gmail{
+    width: 200px;
+    float: left;
+    top: 200px;
+    position: relative;
+    left: 487px;
+}
+
+.telega{
+    width: 80px;
+    float: left;
+    top: 200px;
+    position: relative;
+    left: 620px;
+}
